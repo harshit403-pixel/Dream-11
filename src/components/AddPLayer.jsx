@@ -89,7 +89,7 @@ const AddPLayer = ({setPlayerData, setToggle , editUser , setEditUser, playerDat
   <label className='flex items-center gap-1'>
     <input
       type='radio'
-      value="wicketkeeper"
+      value="AR"
       {...register("position", { required: "position required" })}
     />
     All Rounder
